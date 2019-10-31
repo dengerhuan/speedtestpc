@@ -1,0 +1,98 @@
+.app_gauge {
+    width: 300px;
+    text-align: center;
+}
+
+.app_gauge_value {
+    color: #fff;
+    font-size: 28px;
+}
+
+.app_gauge_title {
+    color: #daffe6;
+    font-size: 24px;
+}
+
+.app_gauge_title_prefix {
+    display: inline-block;
+    color: #5cf5e8;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 8px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html,
+body {
+    overflow: hidden;
+    height: 100vh;
+    margin: 0;
+    width: 100vw;
+    padding: 0;
+    color: white;
+}
+
+.map {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+}
+
+.map_cover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.full_screen {
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.cover_item {
+    flex: 0 0 auto;
+    width: 50%;
+    height: 400px;
+    margin: 20px 0;
+}
+
+.cover_item_title {
+    text-align: center;
+    margin: 20px 0;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cover_item_title img {
+    /*width: 100px;*/
+    height: 60px;
+    margin-right: 20px;
+}
+
+.cover_item_title > span {
+    line-height: 60px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.cover_item_content {
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
